@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    margin: 0;
+    height: 100%;
+}
+
+.fundo_principal {
+    background: linear-gradient(to bottom, #6600cc 0%, #0066ff 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa_formulario {
+    background-color: rgb(51, 19, 155);
+    border: none;
+    border-radius: 16px;
+    box-shadow: 12px;
+    height: 500px;
+    color: white;
+    font-family: Barlow;
+    font-size: 25px;
+    padding: 15px;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[list=Estados], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="my_style.css">
+    <link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+    <title>Formulário Básico</title>
+</head>
+<body>
+    <div class="fundo_principal">
+        <div class="caixa_formulario">
+            <form action="" method="get">
+                <label>Nome Completo: </label>
+                <input type="text" name="pnome" value=""><br>
+                <label>Email: </label>
+                <input type="text" name="email" value=""><br>
+                <label>Idade: </label>
+                <input type="number" name="idade" value=""><br>
+                <label>Estado: </label>
+                <input list="Estados">
+                <datalist id="Estados">
+                    <option value="Acre"></option>
+                    <option value="Alagoas"></option>
+                    <option value="Amapá"></option>
+                    <option value="Amazonas"></option>
+                    <option value="Bahia"></option>
+                    <option value="Ceará"></option>
+                    <option value="Espírito Santo"></option>
+                    <option value="Goiás"></option>
+                    <option value="Maranhão"></option>
+                    <option value="Mato Grosso"></option>
+                    <option value="Mato Grosso do Sul"></option>
+                    <option value="Minas Gerais"></option>
+                    <option value="Pará"></option>
+                    <option value="Paraná"></option>
+                    <option value="Pernambuco"></option>
+                    <option value="Piauí"></option>
+                    <option value="Rio de Janeiro"></option>
+                    <option value="Rio Grande do Norte"></option>
+                    <option value="Rio Grande do Sul"></option>
+                    <option value="Rondônia"></option>
+                    <option value="Roraima"></option>
+                    <option value="Santa Catarina"></option>
+                    <option value="São Paulo"></option>
+                    <option value="Sergipe"></option>
+                    <option value="Tocantis"></option>
+                    <option value="Distrito Federal"></option>
+                </datalist><br><br>
+    
+                <label>Área de atuação na programação: </label><br>
+                <input type="radio" name="area" value="fe" checked>Front-end</input>
+                <input type="radio" name="area" value="be" checked>Back-end</input>
+                <input type="radio" name="area" value="fs" checked>Fullstack</input><br><br>
+    
+                <label>Conhecimento nas linguagens: </label><br>
+                <input type="checkbox" name="linguagens" value="html">HTML 5</input>
+                <input type="checkbox" name="linguagens" value="css">CSS 3</input>
+                <input type="checkbox" name="linguagens" value="javascript">JavaScript</input>
+                <input type="checkbox" name="linguagens" value="jquery">jQuery</input>
+                <input type="checkbox" name="linguagens" value="python">Python</input>
+                <input type="checkbox" name="linguagens" value="java">Java</input>
+                <input type="checkbox" name="linguagens" value="c++">C++</input>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
